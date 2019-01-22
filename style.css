@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	color: #fff;
+}
+
+section {
+	height: 100vh;
+	overflow: hidden;
+}
+
+nav {
+	position: fixed;
+}
+
+
+/*-----------------------------SLIDE 1 -------------------------------------------------------------------------------------------------------------*/
+#home {
+	background: linear-gradient(rgba(142, 29, 30, 0), rgba(142, 29, 30, 0.6)), url(assets/wall1.jpeg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pth {
+	padding-top: 270px;
+}
+h2 {
+	font-weight: bold;
+	line-height: 0.85;
+}
+.read {
+	background: rgba(0,0,0,0);
+}
+.travels {
+	font-size: 60px;
+}
+.read {
+  	background: rgba(0,0,0,0.3);
+}
+
+
+/*-----------------------------SLIDE 2 -------------------------------------------------------------------------------------------------------------*/
+#fish {
+	background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.95)), url(assets/fish.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.f1, .f2, .f3 {
+	width: 100%;
+	height: 300px;
+	background: yellow;
+	margin-right: 7px;
+}
+.f1 {
+	background: url(assets/fish1.jpg);
+	background-size: cover;
+}
+.f3 {
+	background: url(assets/fish3.jpg);
+	background-size: cover;
+}
+.f2 {
+	background: url(assets/fish2.jpg);
+	background-size: cover;
+}
+
+.green-text {
+	text-transform: uppercase;
+	color: #33691e;
+	font-weight: bolder;
+	line-height: 0.85;
+	font-size: 60px;
+}
+.dish {
+	max-width: 80%;
+	line-height: 1;
+	transition: padding 1s; 
+}
+.dish:hover {
+	background: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.pt {
+  	padding-top: 5%;
+  }
+
+/*-----------------------------SLIDE 3 -------------------------------------------------------------------------------------------------------------*/
+#walk {
+	background: url(assets/wall3.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.walk-text {
+	background: black;
+	text-transform: uppercase;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.big {
+	font-weight: bolder;
+	font-size: 23px;
+	line-height: 0.85;
+}
+.small {
+	font-weight: lighter;
+	font-size: 12px;
+}
+.social {
+	border-radius: 50%;
+	padding: 16px;
+	background: #fff;
+	color: #333;
+	text-align: center;
+	height: 80px;
+	width: 80px;
+	font-size: 45px;
+	transition: 0.2s background-color;
+	
+}
+.social:hover {
+	background-color: #8E1D1E; /*red dark*/
+	cursor: pointer;
+}
+
+
+footer {
+	height: 30vh;
+	background: #8E1D1E; /*red dark*/
+	text-transform: uppercase;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*MEDIA QUERIES*/
+@media only screen and (orientation: portrait) {
+  .pth {
+  	padding-top: 200px;
+  }
+  .travels {
+	font-size: 40px;
+  }
+  
+  .dish {
+  	font-size: 8px;
+  }
+  .dish:hover {
+  	padding: 8px;
+  }
+  .pt {
+  	padding-top: 40%;
+  }
+  .f1, .f2, .f3 {
+  	height: 100px;
+  }
+  .green-text {
+  	font-size: 18px;
+  }
+
+  .social {
+  	padding: 8px;
+	height: 45px;
+	width: 45px;
+	font-size: 30px;
+  }
+
+}
