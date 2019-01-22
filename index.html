@@ -18,17 +18,17 @@
 <body>
 
 <!-- -----------------------------SLIDE 1 ---------------------------------------------------------------------------------------------------------------------->
-	<section id="home">
+	<section id="home" class="scrollspy">
 	  <!-- NAVBAR -->
-<!-- 	  <nav class="transparent">
-	    <div class="nav-wrapper container">
-	      <ul class="right">
-	        <li><a href="#home" class="scrolll"><i class="fas fa-plane-departure"></i>TICKET AWAY</a></li>
-	        <li><a href="#fish" class="scrolll"><i class="fas fa-fish"></i>FISHING CAMP</a></li>
-	        <li><a href="#walk" class="scrolll"><i class="fas fa-mug-hot"></i>THE AROMAS</a></li>
-	      </ul>
-	    </div>
-	  </nav> -->
+	  	<div class="row navi">
+	  		<div class="container center-align" style="margin-right: -20%; line-height: 0.85;">
+		  		<div class="col s2"><i class="fas fa-plane fa-nav"></i><a href="#home"><br>TICKET AWAY</a></div>
+		  		<div class="col s2"><i class="fas fa-fish fa-nav"></i><a href="#fish"><br>FISHING CAMP</a></div>
+		  		<div class="col s2"><i class="fas fa-coffee fa-nav"></i><a href="#walk"><br>THE AROMAS</a></div>
+		  		<div class="col s2"><img src="assets/mask.jpg" class="mask"></div>
+	  		</div>
+	  	</div>
+
 
 	    <div class="container pth">
 	      <div class="row">
@@ -44,7 +44,7 @@
 
 
 <!-- -----------------------------SLIDE 2 ---------------------------------------------------------------------------------------------------------------------->
-	<section id="fish">
+	<section id="fish" class="scrollspy">
 		<div class="container pt">
 			<div class="row">
 				<div class="col s4 f1"><!-- <img class="responsive-img" src="assets/fish1.jpg"> --></div>
@@ -73,7 +73,7 @@
 	</section>
 
 <!-- -----------------------------SLIDE 3 ---------------------------------------------------------------------------------------------------------------------->
-	<section id="walk">
+	<section id="walk" class="scrollspy">
 		<div class="container hide-on-med-and-up" style="padding: 2%;padding-top: 50%;">
 			<div class="row walk-text" style="margin-bottom: 5px;">
 				<div class="col s12 center-align big">let's walk the distance</div>
@@ -119,11 +119,12 @@
 
 	<!-- LIVERELOAD JS (for development only) -->
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-	<script type="text/javascript" src="script.js"></script>
 
 	<!-- MATERIALIZE JS -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
